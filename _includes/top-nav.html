@@ -1,0 +1,29 @@
+<nav class="navbar navbar-expand-lg navbar-light pb-lg-0" style="background-color: #E27D60">
+    <div class="container">
+        
+        <a class="navbar-brand" href="{{ '/' | absolute_url }}">{% if site.title-icon %}<span class="{{ site.title-icon }} mr-2"></span> {% endif %}{{ site.title }}</a>
+
+        <button class="navbar-toggler border-none" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+            <ul class="navbar-nav justify-content-end">
+            {% for section in site.html_pages %}{% if section.nav == true %}
+                <li class="nav-item">
+                    <a class="nav-link{% if page.url == section.url %} active{% endif %} p-3" href="{{ section.url | absolute_url }}">{{ section.title }}</a>
+                </li>
+            {% endif %}{% endfor %}
+            <li class="nav-item dropdown pb-lg-0">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  [etc.]
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="{{ '/content/3-music.html' | relative_url }}">music</a>
+                  <a class="dropdown-item" href="{{ '/content/4-visual.html' | relative_url }}">visual</a>
+                </div>
+              </li>
+            </ul>  
+        </div>
+    </div>
+</nav>

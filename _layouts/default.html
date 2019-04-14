@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en' }}">
-
+<html lang="en">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
   {% include head.html %}
+  </head>
 
   <body>
-    
-    {% include header.html %}
+    <header>
+    {% include top-nav.html %}
+    </header>
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
+    <main role="main" aria-label="Content">
+      <div class="container my-4">
+      {{ content }}
       </div>
     </main>
 
     {% include footer.html %}
+    {% include foot.html %}
 
   </body>
 
