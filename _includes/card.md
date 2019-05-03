@@ -1,6 +1,6 @@
 <div class="card mb-3" style="border: none;">
 {% if include.img %}<img class="card-img-top" src="{{ include.img | prepend: '/images/' | absolute_url }}" alt="{{ include.alt | default: 'Card image' }}">{% endif %}
-{% if include.header %}<h5 class="card-header" style="background-color: #E27D60; border-radius: 0;">{{ include.header }}</h5>{% endif %}
+{% if include.header %}<h5 class="card-header" style="background-color: rgb(0, 134, 187); border-radius: 0;">{{ include.header }}</h5>{% endif %}
 <div class="card-body">
 {% if include.title %}<h5 class="card-title">{{ include.title }}</h5>{% endif %}
 <div class="card-text" markdown="1">
