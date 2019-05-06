@@ -14,7 +14,7 @@ nav: false
     </div>
 </div>
 
-<a href="{{ '/content/files/Worn Joy.zip' | relative_url }}" class="btn" target="_blank" style="background-color: #E27D60;color: #111111;">Download the Album</a>
+<a href="{{ '/content/files/Worn Joy.zip' | relative_url }}" class="btn" target="_blank">Download the Album</a>
 
 {% endcapture %}
 {% include card.md text=text header="<strong>Worn Joy</strong>—<em>2013-14</em>" %}
@@ -30,7 +30,7 @@ nav: false
     </div>
 </div>
 
-<a href="{{ '/content/files/Agent and The Patient.zip' | relative_url }}" class="btn" target="_blank" style="background-color: #E27D60;color: #111111;">Download the EP</a>
+<a href="{{ '/content/files/Agent and The Patient.zip' | relative_url }}" class="btn" target="_blank">Download the EP</a>
 
 {% endcapture %}
 {% include card.md text=text header="<strong>Agent and The Patient</strong>—<em>2006-09</em>" %}
@@ -46,7 +46,7 @@ nav: false
     </div>
 </div>
 
-<a href="{{ '/content/files/Flashbasket_Box-Cutter Songs.zip' | relative_url }}" class="btn" target="_blank" style="background-color: #E27D60;color: #111111;">Download <em>Box-Cutter Songs</em> by Flashbasket</a>
+<a href="{{ '/content/files/Flashbasket_Box-Cutter Songs.zip' | relative_url }}" class="btn" target="_blank">Download <em>Box-Cutter Songs</em> by Flashbasket</a>
 
 {% endcapture %}
 {% include card.md text=text header="<strong>Flashbasket</strong>—<em>2000-2006</em>" %}
@@ -57,10 +57,10 @@ My brilliant and generous friend Evan Williamson made this super cool online rep
 
 <div class="row">
     <div class="col-sm-6">
-        <a href="https://coroglesby.github.io/live-music-videos/" class="btn" target="_blank" style="background-color: #E27D60;color: #111111;">Go to the Live Videos Repository</a>
+        <a href="https://coroglesby.github.io/live-music-videos/" class="btn" target="_blank">Go to the Live Videos Repository</a>
     </div>
     <div class="col-sm-6">
-        <a href="https://evanwill.github.io/" class="btn" target="_blank" style="background-color: #E27D60;color: #111111;">Visit Evan's site</a>
+        <a href="https://evanwill.github.io/" class="btn" target="_blank">Visit Evan's site</a>
     </div>
 </div>
 

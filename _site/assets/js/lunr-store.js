@@ -33,7 +33,7 @@ var store = [
     { 
         "url": "/",
         "title": "Home",
-        "text": "                                               Corey Oglesby is a poet and artist originally from the Washington, DC, area, and he is also me. My poems and poem-comics have appeared recently or are forthcoming in Beloit Poetry Journal, Barrow Street, Diagram, Hobart, Puerto del Sol, jubilat, and elsewhere. Formerly the Editor-in-Chief of Fugue, I currently live and make things in Moscow, Idaho.         Follow me on social media:Twitter: @CoreyoglesbyInstagram: @corey.oglesby                 "
+        "text": "                        Corey Oglesby is a poet and artist originally from the Washington, DC, area, and he is also me. My poems and poem-comics have appeared recently or are forthcoming in Beloit Poetry Journal, Barrow Street, Diagram, Hobart, Puerto del Sol, jubilat, and elsewhere. Formerly the Editor-in-Chief of Fugue, I currently live and make things in Moscow, Idaho.         Follow me on social media:Twitter: @CoreyoglesbyInstagram: @corey.oglesby                              "
     }, 
     { 
         "url": "/search/",
