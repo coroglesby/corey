@@ -18,7 +18,7 @@ var store = [
     { 
         "url": "/404.html",
         "title": "404",
-        "text": "404? Sorry, but the page you were trying to view does not exist.   ____________   ------------         \\   ^__^          \\  (oo)\\_______             (__)\\       )\\/\\                 ||----w |                 ||     ||   "
+        "text": "404? Sorry, but the page you were trying to view does not exist.   ____________  "
     }, 
     { 
         "url": "/",
