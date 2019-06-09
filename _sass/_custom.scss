@@ -7,59 +7,39 @@ header {
     }
     .nav-tabs {
         border: none;
-        background-color: rgb(97, 186, 212);   
-    }
-    .active {
-        background-color: rgb(97, 186, 212);
-        color: rgba(0,0,0,.7);
+        background-color: rgb(0, 0, 0);   
     }    
     
 }
 
-footer {
-    border-top: solid 0px $top-border;
-    .nav-link { 
-        color: #ffffff;
-        font-family: 'Abel', sans-serif;
-        &.active { 
-            text-decoration: line-through;
-            background-color: rgb(97, 186, 212);
-            color: rgba(0,0,0,.7);
-        }
-        &:hover {
-            color: rgba(0,0,0,.7);
-        }
-    }
-}
 
 .btn {
     border-radius: 0;
     font-family: 'Abel', sans-serif;
-    background-color:rgb(0, 134, 187);
+    background-color:#40e0d0;
     color:#ffffff;
     box-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .card {
-    border-radius: 0;
+    border-radius: 15px;
     border: none;
-
 }
 
 body-bg {
-    color: #111111;
-    
+    color: #111111;   
 }
+
 body {
     color: #111111;
-    background-color: rgb(97, 186, 212);
+    background-color: rgb(228, 181, 95);
     font-family: 'Abel', sans-serif;
 }
 
 h5 {
     font-family: 'Abel', sans-serif;
     color:#ffffff;
-    background-color:rgb(0, 134, 187);
+    background-color:#40e0d0;
     padding: 3px;
 }
 
@@ -75,7 +55,8 @@ a {
 
 .navbar-light .navbar-brand {
     color: rgba(255, 255, 255, 0.9);
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
     text-shadow: 2px 2px rgb(0, 0, 0);
     &:hover {
         color:#ffffff;
@@ -84,7 +65,8 @@ a {
 
 .navbar-brand {
     color:#ffffff;
-    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Josefin Slab', serif;
+    font-size: 50px;
     text-shadow: 2px 2px rgb(0, 0, 0);
     &:hover {
         color:#ffffff;
@@ -99,7 +81,7 @@ a {
 }
 
 .dropdown-item {
-    background-color: rgb(0, 134, 187);
+    background-color: rgb(154, 226, 190);
     padding-top: 0;
     padding-bottom: 0;
     font-family: 'Abel', sans-serif;

@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light pb-lg-0" style="background-color: rgb(0, 134, 187);">
+<nav class="navbar navbar-expand-lg navbar-light pb-lg-0" style="background-color: #40e0d0">
     <div class="container">
         
         <a class="navbar-brand" href="{{ '/' | absolute_url }}">{% if site.title-icon %}<span class="{{ site.title-icon }} mr-2"></span> {% endif %}{{ site.title }}</a>
@@ -14,15 +14,6 @@
                     <a class="nav-link{% if page.url == section.url %} active{% endif %} p-3" href="{{ section.url | absolute_url }}">{{ section.title }}</a>
                 </li>
             {% endif %}{% endfor %}
-            <li class="nav-item dropdown pb-lg-0">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  [etc.]
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="{{ '/content/3-music.html' | relative_url }}">music</a>
-                  <a class="dropdown-item" href="{{ '/content/4-visual.html' | relative_url }}">visual</a>
-                </div>
-              </li>
             </ul>  
         </div>
     </div>

@@ -5,32 +5,17 @@ header {
     color: #ffffff; }
   header .nav-tabs {
     border: none;
-    background-color: #61bad4; }
-  header .active {
-    background-color: #61bad4;
-    color: rgba(0, 0, 0, 0.7); }
-
-footer {
-  border-top: solid 0px #4424; }
-  footer .nav-link {
-    color: #ffffff;
-    font-family: 'Abel', sans-serif; }
-    footer .nav-link.active {
-      text-decoration: line-through;
-      background-color: #61bad4;
-      color: rgba(0, 0, 0, 0.7); }
-    footer .nav-link:hover {
-      color: rgba(0, 0, 0, 0.7); }
+    background-color: black; }
 
 .btn {
   border-radius: 0;
   font-family: 'Abel', sans-serif;
-  background-color: #0086bb;
+  background-color: #40e0d0;
   color: #ffffff;
   box-shadow: 3px 3px black; }
 
 .card {
-  border-radius: 0;
+  border-radius: 15px;
   border: none; }
 
 body-bg {
@@ -38,13 +23,13 @@ body-bg {
 
 body {
   color: #111111;
-  background-color: #61bad4;
+  background-color: #e4b55f;
   font-family: 'Abel', sans-serif; }
 
 h5 {
   font-family: 'Abel', sans-serif;
   color: #ffffff;
-  background-color: #0086bb;
+  background-color: #40e0d0;
   padding: 3px; }
 
 a {
@@ -57,14 +42,16 @@ a {
 
 .navbar-light .navbar-brand {
   color: rgba(255, 255, 255, 0.9);
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
   text-shadow: 2px 2px black; }
   .navbar-light .navbar-brand:hover {
     color: #ffffff; }
 
 .navbar-brand {
   color: #ffffff;
-  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Josefin Slab', serif;
+  font-size: 50px;
   text-shadow: 2px 2px black; }
   .navbar-brand:hover {
     color: #ffffff; }
@@ -75,7 +62,7 @@ a {
   color: #ff0000; }
 
 .dropdown-item {
-  background-color: #0086bb;
+  background-color: #9ae2be;
   padding-top: 0;
   padding-bottom: 0;
   font-family: 'Abel', sans-serif; }
