@@ -25,10 +25,10 @@ repo: "https://github.com/coroglesby/stacyboemiller"
 # site urls
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://www.coreyoglesby.com
+url: https://coroglesby.github.io/stacyboemiller
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: 
+baseurl: /stacyboemiller
 
 # add search box to footer?
 search: false
